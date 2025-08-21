@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EAE7DD;
+    overflow-x: hidden;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    background-color: #EAE7DD;
+}
+
+#logo {
+    height: 100%;
+    position: absolute;
+    left: 45%;
+}
+
+#lupa {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 30%;
+    left: 90%;
+}
+
+#carrinho {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 30%;
+    left: 95%
+}
+
+#listaCategorias {
+    width: 100%;
+    text-align: center;
+    border-top: solid 1px #4F2800;
+    border-bottom: solid 1px #4F2800;
+}
+
+#listaCategorias>ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#listaCategorias>ul>li>a {
+    text-decoration: none;
+    color: #4F2800;
+    font-family: Barlow Semi Condensed;
+    font-size: 30px;
+}
+
+#capaHome{
+    background-color: #4F2800;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#capaHome > img {
+    height: 642px;
+    width: 963px;
+    border-radius: 20px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+#capaHome > h1 {
+    color: #EAE7DD;
+    font-family: Barlow Semi Condensed;
+    font-size: 65px;
+    position: absolute;
+    left: 210px;
+    top: 300px;
+}
+#capaHome > h2{
+    color: #4F2800;
+    font-family: Alex Brush;
+    font-size: 100px;
+    position: absolute;
+    left: 480px;
+    top: 400px;
+}
+
+#menu{
+    height: 700px;
+}
+#menu>h1 {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    font-family: Barlow Semi Condensed;
+    font-size: 65px;
+    color: #4F2800;
+}
+#menu>main {
+    display: flex;
+    position: relative;
+    left: 10%;
+    top: 20%;
+    width: 100%;
+    right: 0;
+    justify-content: space-between;
+}
+
+footer{
+    height: 320px;
+    width: 100%;
+    background-color: #4F2800;
+}
+footer>div{
+    margin: auto;
+    width: 860px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 30%;
+}
+footer>div>main{
+    width: 30%;
+    text-align: center;
+}
+footer>div>main>h1{
+    color: #EAE7DD;
+    font-family: Barlow Semi Condensed;
+    font-size: 30px;
+}
+footer>div>main>p{
+    color: #EAE7DD;
+    font-family: Barlow Semi Condensed;
+    font-size: 20px;
+}
+footer>div>main>a{
+    text-decoration: none;
+    color: #EAE7DD;
+    font-family: Barlow Semi Condensed;
+    font-size: 20px;
+}
+footer>div>main>svg{
+    color: #EAE7DD;
+}
